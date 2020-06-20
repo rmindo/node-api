@@ -22,10 +22,10 @@ const fn = module.exports = Object.create(http);
  * Listen
  */
 fn.run = (port) => {
-	const server = http.createServer();
-	
-	// Create Request
-	server.on('request', (req, res) => {
+  const server = http.createServer();
+  
+  // Create Request
+  server.on('request', (req, res) => {
     const seg = req.url.split('/').filter(i=>i!='');
 
     res.writeHead(200, {
@@ -44,6 +44,6 @@ fn.run = (port) => {
       }
     }
     res.end('Test');
-	});
-	server.listen(port, () => console.log(`Listening on port ${port}`));
+  });
+  server.listen(port, () => console.log(`Listening on port ${port}`));
 };
