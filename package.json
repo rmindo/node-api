@@ -1,0 +1,13 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "RESTful Node API with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "pro": "ROOT=$(pwd) node index.js",
+    "dev": "ROOT=$(pwd) nodemon --legacy-watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruel Mindo",
+  "license": "MIT"
+}

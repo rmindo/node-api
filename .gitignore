@@ -1,0 +1,11 @@
+# Environment
+.env
+
+# Git
+.git
+
+# Crypto
+certs
+
+# Modules
+node_modules

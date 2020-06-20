@@ -1,0 +1,8 @@
+# Git
+.git
+
+# Environment
+.env
+
+# Node Modules
+node_modules
