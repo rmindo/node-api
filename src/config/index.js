@@ -2,17 +2,17 @@ module.exports = {
   resource: [
     {
       users: {
-        var: 'string:id',
+        var: ':id',
         extra: [
           ['GET', '/init', 'init', true]
         ]
       },
       contacts: {
         pass: true,
-        var: 'string:key'
+        var: ':key'
       },
       addresses: {
-        var: 'string:index'
+        var: ':index'
       }
     },
   ]
